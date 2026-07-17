@@ -24,7 +24,7 @@ the output is a 2D-matrix in .xlsx format containing patients as rows and the fe
 
 ### 🔹Fourier analysis of the skip connection 
 - **`FFT_skip_connection.py`** FFT analysis of the role of the skip connection in the analysis
-
+---
 
 
 
