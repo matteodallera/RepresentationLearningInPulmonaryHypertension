@@ -17,7 +17,7 @@ Abstract. - Coming Soon -
 
 ### 🔹 Computation of the embeddings 
 - **`Inference*.py`**
-The script named inference*.py allow the computation of the representations being compared; the input are the volumes used for the comparison of the mebeddings while
+ allow the computation of the representations being compared; the input are the volumes used for the comparison of the mebeddings while
 the output is a 2D-matrix in .xlsx format containing patients as rows and the features as columns. the last column is the class label
 ---
 
