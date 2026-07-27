@@ -3,6 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import matplotlib.pyplot as plt
 
+#To disable the skip connection, it' sufficient to substitute the flag at 168 with 0.
 
 
 class ContBatchNorm3d(nn.modules.batchnorm._BatchNorm):
