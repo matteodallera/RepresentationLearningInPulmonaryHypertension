@@ -39,8 +39,8 @@ from torch.utils.data import Dataset, DataLoader
 import unetmod
 import random
 
-seed = 42
 
+seed = 42
 random.seed(seed)
 np.random.seed(seed)
 torch.manual_seed(seed)
