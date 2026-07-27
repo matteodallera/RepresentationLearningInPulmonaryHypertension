@@ -8,7 +8,7 @@ Abstract. - Coming Soon -
 
 ## 📂 Repository Structure
 
-### 🔹 Task-Driven-Preprocessing
+### 🔹 Preprocessing
 
 - This folder contains the script needed to peform the task-driven preprocessing of data; preprocessing needs the usage of the Pyhton Library TotalSegmentator (Please refer to the official TotalSegmentator GitHub repository for installation details and further information)
 - taskprocessingS.py allows the task-driven processing of the proprietary dataset
@@ -17,16 +17,23 @@ Abstract. - Coming Soon -
 - processingR.py allows the processing of the RSNA dataset used for the variants of the task-driven framework that do not use preprocessing 
 -----------
 
+### 🔹 Training task-driven framework
+- The folder contains the scripts needed for the training of the task-driven-processing (TraningMg.py) which needs the train scans, val scans.
+- To zero-gate the skip connection, flag need to be set equal to 0 in Unetmod.py
+---
+
 ### 🔹 Computation of the embeddings 
 - **`Inference*.py`**
  allow the computation of the representations being compared; the input are the volumes used for the comparison of the embeddings while
 the output is a 2D-matrix in .xlsx format containing patients as rows and the features as columns. the last column is the class label
----
+------
 
 ### 🔹Fourier analysis of the skip connection 
 - **`FFT_skip_connection.py`** FFT analysis of the role of the skip connection in the analysis
----
+-------
 
+### 🔹Evaluation Benchmarks
+- Folder contains the scipts needed for the comparison of the latent representations ( the .xlsx files of the different models are needed)
 
 
 ## 📌 Notes 
