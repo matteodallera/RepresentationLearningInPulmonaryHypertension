@@ -8,14 +8,14 @@ Abstract. - Coming Soon -
 
 ## 📂 Repository Structure
 
-### 🔹 Task-Driven-Framework 
+### 🔹 Task-Driven-Preprocessing
 
-- This folder contains the script needed to peform the task-driven preprocessing of data (task-driven-preprocessing folder); preprocessing needs the usage of the Pyhton Library TotalSegmentator (Please refer to the official TotalSegmentator GitHub repository for installation details and further information)
-- Preprocessing scripts needs the source input folder of the volumes and the output folder for the processed ones 
-- The folder also contains the script with the modified version of the 3D-Unet (Unetmod.py) and the script to be used for the training of the task-driven-framework
-- (preprocessing.py | preprocessingMIP.py) are used for the task-driven processing of the Proprietary dataset
-- (preprocessingRSNA.py) is uded for the task-driven processing of the RSNA dataset
----
+- This folder contains the script needed to peform the task-driven preprocessing of data; preprocessing needs the usage of the Pyhton Library TotalSegmentator (Please refer to the official TotalSegmentator GitHub repository for installation details and further information)
+- taskprocessingS.py allows the task-driven processing of the proprietary dataset
+- taskprocessingR.py allows the task-driven processing of the RSNA dataset
+- processingS.py allows the processing of the proprietary dataset used for the variants of the task-driven framework that do not use preprocessing 
+- processingR.py allows the processing of the RSNA dataset used for the variants of the task-driven framework that do not use preprocessing 
+-----------
 
 ### 🔹 Computation of the embeddings 
 - **`Inference*.py`**
