@@ -19,7 +19,7 @@ Abstract. - Coming Soon -
 
 ### 🔹 Training task-driven framework
 - The folder contains the scripts needed for the training of the task-driven-processing (TraningMG.py) which needs the training data and the validation data.
-- To zero-gate the skip connection, flag need to be set equal to 0 in Unetmod.py
+- To zero-gate the retained skip connection, flag need to be set equal to 0 in Unetmod.py
 ---
 
 ### 🔹 Computation of the embeddings 
