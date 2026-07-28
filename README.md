@@ -3,7 +3,7 @@
 This repository contains the code required to implement the framework proposed in the paper "Representation Learning for Pulmonary
 Hypertension Subtypes Identification:Comparison of Task-Driven and Vision Foundation Modelss"
 
-Abstract: Accurate discrimination between Pulmonary
+Accurate discrimination between Pulmonary
 Arterial Hypertension (PAH) and Chronic Thromboembolic
 Pulmonary Hypertension (CTEPH) using Computed
 Tomography Pulmonary Angiography (CTPA) is a critical
