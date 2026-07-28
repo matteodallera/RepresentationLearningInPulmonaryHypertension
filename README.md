@@ -6,7 +6,7 @@ Abstract. - Coming Soon -
 
 # Model Training & Evaluation Pipeline
 
-A repository for preprocessing, model training on public datasets, inference on proprietary data, and model benchmarking.
+Repository for preprocessing, model training on public datasets, inference on proprietary data, and model benchmarking.
 
 ---
 
